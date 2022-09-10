@@ -1,7 +1,19 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  background-color: lightpink;
 }
 
-.gallery-container {
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-item {
+  height: 400px;
+}
+
+#cs1300-gallery{
+  font-size: 20px;
 }
